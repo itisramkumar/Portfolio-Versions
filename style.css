@@ -1,0 +1,34 @@
+:root{
+    --background: #F8FAFC;
+    --surface: #FFFFFF;
+    --text: #111827;
+    --secondary: #4B5563;
+    --accent: #2563EB;
+}
+
+body{
+  background-color:var(--background-color);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+}
+a{
+    font-size: medium;
+    color: #58A6FF;
+}
+
+#me {
+    
+}
+
+h1{
+    font-size:larger;
+}
+h2{
+    font-size: large;
+}
+h3{
+    font-size: medium;
+}
+p{
+    font-size: medium;
+}
