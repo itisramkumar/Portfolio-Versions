@@ -33,12 +33,62 @@ body{
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+
+
+.hero-section{
+    min-height: calc(100vh - 80px);
+    background: var(--surface);
+    padding: 5rem 8%;
+    display:flex ;
+    align-items: center;
+    gap: 4rem;
+    
+}
+.hero-section h3{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+.hero-section h1{
+    font-size: 3.5rem;
+    margin-bottom: 3.9rem;
+}
+.hero-section h2{
+    font-size: 1.5;
+    color: var(--secondary);
+    margin-bottom: 1.8rem;
+}
+.hero-section p{
+    max-width: 700px;
+    line-height: 2.2;
+    margin-bottom: 1.9rem;
+}
+.hero-btn{
+    display: flex;
+    gap: 1.5rem;
+}
+.hero-content{
+    flex: 1.2;
+}
+.hero-image{
+    flex: 0.8;
+    justify-content: center;
+    
+    align-items: center;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
 .btn{
     display: inline-block;
     background: var(--accent);
     color: white;
     text-decoration: none;
-    padding: 1.5ch;
+    padding: 0.75rem 1.5rem;
     border-radius: 8px;
     font-weight: 600;
     transition: background .3s, transform .2s;
@@ -49,10 +99,29 @@ body{
     transform: translateY(-2px);
 }
 
+
 h1{
     font-size:1.5rem;
 }
 
+.abt-section{
+    background: var(--surface);
+    padding: 5rem 8%;
+}
+.abt-section h2{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+.abt-content{
+    max-width: 850px;
+    margin: 0 auto;
+}
+.abt-content p{
+    text-align: justify;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+}
 h2{
     font-size: 1.2rem;
     margin-bottom: 1rem;
