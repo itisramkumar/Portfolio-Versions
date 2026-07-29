@@ -38,7 +38,7 @@ body{
     background: var(--accent);
     color: white;
     text-decoration: none;
-    padding: 2ch;
+    padding: 1.5ch;
     border-radius: 8px;
     font-weight: 600;
     transition: background .3s, transform .2s;
