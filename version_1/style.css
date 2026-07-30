@@ -196,6 +196,13 @@ h1{
     border-radius:12px;
     box-shadow:0 8px 24px rgba(0,0,0,.08);
 }
+.timeline-content ul{
+    display: flex;
+    flex-direction: column;
+    gap:0.75rem;
+    padding-left: 1.5rem;
+
+}
 
 .timeline-item:nth-child(odd) .timeline-content{
     grid-column:1;
@@ -365,6 +372,82 @@ h1{
         transform:translateX(0);
     }
 
+}
+
+.motto-section{
+    background: var(--surface);
+    padding: 6rem 8%;
+    text-align: center;
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+}
+.motto-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.motto-section blockquote{
+    max-width: 750px;
+    margin:0 auto;
+    font-size: 1.6rem;    
+    line-height: 1.8;
+    font-style:italic;
+    font-weight: 500;
+    color: var(--secondary);
+    position: relative;
+}
+.pub-section{
+    background: var(--surface);
+    padding: 5rem 8%;
+}
+.pub-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.pub-layout{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:4rem;
+}
+.pub-content{
+   flex: 1;
+}
+.pub-content h3{
+    font-size: 1.4rem;
+}
+.pub-content p{
+    font-size: 1.1rem;
+}
+.book-img{
+    flex: 0 0 280px;
+}
+.book-img img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
+
+.lead-section{
+    background: var(--surface);
+    padding: 6rem 8%;
+}
+.lead-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mission-section{
+    background: var(--surface);
+    padding: 6rem 8%;
+    text-align: center;
+}
+.mission-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 h2{
