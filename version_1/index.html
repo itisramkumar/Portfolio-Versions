@@ -263,32 +263,83 @@
         </section>
         <section id = "competitions" class="lead-section">
             <h2>Leadership</h2>
-            <ul>
-                <li>Finalist in UYIR National Road Safety Hackathon, Coimbatore</li>
-                <li>Top 5 in HackIndia 2025, Salem</li>
-            </ul>
+            <div class="events">
+                <article class="event-card">
+                    <img src="assets/uyir hackathon.png" alt="UYIR Hackathon">
+                    <div class="event-content">
+                        <h3>UYIR National Road Safety Hackathon</h3>
+                        <p>Presented our National Road Safety App before the Tamil Nadu Police Department and the Coimbatore District Collector</p>
+                    </div>
+                    <div class="event-meta">
+                        <span>🏆 Grand-Finalist</span>
+                        <span>👥 3000+ Participants all over India</span>
+                    </div>
+                    <div class="event-link">
+                        <a href="https://youtu.be/3czDa6yjoS4?si=mLtyMjqKNWv0VO-_" target="_blank">Watch Event</a>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <img src="assets/IMG_2367.JPG" alt="HackIndia 2025">
+                    <div class="event-content">
+                        <h3>HackIndia 2025</h3>
+                        <p>Presented our National Road Safety App at HackIndia 2025 and advanced to the final rounds among 100+ competing teams.</p>
+                    </div>
+                    <div class="event-meta">
+                        <span>🏆 Top 5</span>
+                        <span>👥 100+ Teams</span>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <img src="assets/CSI.jpeg" alt="CSI Tech Trek">
+                    <div class="event-content">
+                        <h3>CSI Tech Trek 2026</h3>
+                        <p>Organized a coding competition for
+                        50+ participants with multiple rounds,
+                        including a live buzzer challenge.</p>
+                    </div>
+                    <div class="event-meta">
+                        <span>🏆 Event Coordinator</span>
+                        <span>👥 50+ Participants</span>
+                    </div>
+                    <div class="event-link">
+                        <a href="https://drive.google.com/file/d/1_nZ7wYLDnvI-vL6FLbPBXoQTc9-0nwva/view?usp=sharing" target="_blank">Watch Event</a>
+                    </div>
+
+                </article>
+                
+                
+            </div>
         </section>
         <section id = "mission" class="mission-section">
             <h2>Mission</h2>
-            <p>"Stay consistent and focussed on one thing than being scattered"</p>
+
+            <blockquote class="mission-quote">"Stay consistent and focussed on one thing than being scattered"</blockquote>
         </section>
-        <section id = "connect" class="section">
+        <section id = "connect" class="connect-section">
             <h2>Let's Connect</h2>
-                
-                <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off">
-                    <fieldset>
-                        <label  for="fname">First Name :</label>
-                        <input type="text" placeholder="First Name" 
-                        name="" id="fname"><br>
-                        <label for="lname">Last Name :</label>
-                        <input type="text" placeholder="Last Name" 
-                        name="" id="lname"><br>
-                        <label for="email">E-mail :</label>
-                        <input type="email" placeholder="Enter your email" id="email">
-                        <button type = "submit">Shall we meet</button>
-                    </fieldset>
+            <div class="connect-container">
+                <div class="connect-info">
+                    <h3>Let's build something together</h3>
+                    <p>
+                        Whether it's a project, internship,
+                        collaboration, or simply a conversation,
+                        I'd love to hear from you.
+                    </p>
+                    
+                </div>                
+                <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off" class="contact-form">
+                    
+                        <label for="name">Name </label>
+                        <input type="text" placeholder="Name" 
+                        name="" id="name" required>
+                        <label for="email">E-mail </label>
+                        <input type="email" placeholder="Enter your email" id="email" required>
+                        <label for="message">Message </label>
+                        <textarea placeholder="Hi Ram,.." id="message" required></textarea>
+                        <button type = "submit" class="btn">Send Message</button>
+                    
                 </form>
-                
+            </div>    
         </section>
 
     </main>
