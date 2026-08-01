@@ -71,8 +71,22 @@ window.addEventListener("load", updateTimeline);
 const menuBtn = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
 
-menuBtn.addEventListener("click",()=>{
+menuToggle.addEventListener("click", () => {
 
     nav.classList.toggle("active");
+
+    const icon = menuToggle.querySelector("i");
+
+    if(nav.classList.contains("active")){
+
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+
+    }else{
+
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+
+    }
 
 });
