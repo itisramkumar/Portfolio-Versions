@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ram Kumar | Software Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Ram KumarP" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
     
 </head>
 <body>
@@ -345,15 +351,15 @@
                     </p>
                     
                 </div>                
-                <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off" class="contact-form">
-                    
+                <form action="https://api.web3forms.com/submit" method="POST"  class="contact-form">
+                        <input type="hidden" name="access_key" value="85af1460-006e-4e28-b882-5e33f53d7b1f">
                         <label for="name">Name </label>
                         <input type="text" placeholder="Name" 
                         name="" id="name" required>
                         <label for="email">E-mail </label>
                         <input type="email" placeholder="Enter your email" id="email" required>
                         <label for="message">Message </label>
-                        <textarea placeholder="Hi Ram,.." id="message" required></textarea>
+                        <textarea placeholder="Hi Ram,.." id="message" name="message" required></textarea>
                         <button type = "submit" class="btn">Send Message</button>
                     
                 </form>
