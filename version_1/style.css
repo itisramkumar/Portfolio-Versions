@@ -1062,7 +1062,7 @@ hr{
     .lead-section{
         padding: 2rem 5%;
     }
-    
+
     .connect-section{
 
         padding:4rem 5%;
@@ -1174,21 +1174,27 @@ hr{
 
     }
     .connect-section{
-        padding:2rem;
+        padding: 2rem;
+    }
+    .contact-form{
+        width:100%;
+        max-width:320px;
+        margin:0 auto;
     }
 
     .contact-form input,
     .contact-form textarea{
 
-        padding:.9rem;
+        padding:0.9rem;
+        width: 95%;
 
     }
 
     .contact-form button{
 
-        width:100%;
+        width:95%;
 
-        align-self:stretch;
+        align-self:center;
 
     }
     footer{
