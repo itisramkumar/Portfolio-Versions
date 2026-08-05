@@ -6,7 +6,7 @@ This project represents my journey of learning modern frontend development by fo
 
 ## 🔗 Live Website
 
-https://itisramkumar.github.io/Portfolio-Versions/
+https://itisramkumar.github.io/portfolio-v1/
 
 ---
 
@@ -116,7 +116,7 @@ I enjoy building technology that solves practical real-world problems.
 ## 📫 Connect With Me
 
 Portfolio:
-https://itisramkumar.github.io/Portfolio-Versions/
+https://itisramkumar.github.io/portfolio-v1/
 
 LinkedIn:
 https://www.linkedin.com/in/ramkumar47
