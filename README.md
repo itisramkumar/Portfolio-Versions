@@ -129,10 +129,5 @@ mailto:rajiniram49@gmail.com
 
 ---
 
-## ⭐ Acknowledgements
-
-Special thanks to the open-source community and the countless developers whose articles, documentation, and tutorials made this learning journey possible.
-
----
 
 © 2026 R.T. Ram Kumar. All Rights Reserved.
